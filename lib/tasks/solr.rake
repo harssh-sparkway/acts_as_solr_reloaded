@@ -1,6 +1,7 @@
 namespace :solr do
 
-  APACHE_MIRROR = ENV['APACHE_MIRROR'] || "http://ftp.unicamp.br/pub/apache"
+  #APACHE_MIRROR = ENV['APACHE_MIRROR'] || "http://ftp.unicamp.br/pub/apache"
+  APACHE_MIRROR = ENV['APACHE_MIRROR'] || "http://archive.apache.org/dist"
   SOLR_VERSION = '3.6.0'
   SOLR_FILENAME = "apache-solr-#{SOLR_VERSION}.tgz" 
   SOLR_MD5SUM = 'ac11ef4408bb015aa3a5eefcb1047aec'
